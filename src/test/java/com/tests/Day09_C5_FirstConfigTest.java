@@ -11,15 +11,19 @@ public class Day09_C5_FirstConfigTest {
 
     @Test
     public void firstConfigTest() throws InterruptedException {
-        //   app_url  'e git
+
+//     Driver.getDriver().get("http://www.carettahotel.com/");
+
         Driver.getDriver().get(ConfigReader.getProperty("app_url"));
         Thread.sleep(5000);
 
-        // Title'in' Caretta Hotel - Home oldugunu assert et
+        //   Title'in' Caretta Hotel - Home oldugunu assert et
         String actualTitle = Driver.getDriver().getTitle();
 
         String expectedTitle = ConfigReader.getProperty("app_title");
+        Thread.sleep(5000);
         Assert.assertEquals(actualTitle, expectedTitle);
+
     }
 
 }

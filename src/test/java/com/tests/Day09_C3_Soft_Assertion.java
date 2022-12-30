@@ -11,7 +11,7 @@ import org.testng.asserts.SoftAssert;
 
 import java.util.concurrent.TimeUnit;
 
-public class Day09_C2_Soft_Assertion {
+public class Day09_C3_Soft_Assertion {
     /*
      * when kullanici application home page gider //http://www.carettahotel.com/
      * then title'in 'Caretta Hotel' oldugunu verify eder

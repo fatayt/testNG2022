@@ -18,6 +18,7 @@ public class Day09_C2_Hard_Assertion {
      * And login button'a click eder
      * then page title'in 'Caretta Hotel - Log in' oldugunu verify eder
      */
+
     WebDriver driver;
     @BeforeMethod
     public void setUp(){
@@ -25,29 +26,28 @@ public class Day09_C2_Hard_Assertion {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        }
-        @AfterMethod
-        public void tearDown(){
+    }
+    @AfterMethod
+    public void tearDown(){
         driver.close();
-        }
-        @Test
+    }
+    @Test
     public void hardAssertion(){
 //     * when kullanici application home page gider //http://www.carettahotel.com/
-        driver.get("http://www.carettahotel.com");
+        driver.get("http://www.carettahotel.com/");
         driver.findElement(By.id("details-button")).click();
         driver.findElement(By.id("proceed-link")).click();
 
 //     * then title'in 'Caretta Hotel' oldugunu verify eder
-            System.out.println(driver.getTitle());
-            Assert.assertTrue(driver.getTitle().equals("Caretta Hotels - Home"));
+        System.out.println(driver.getTitle());
+        Assert.assertTrue(driver.getTitle().equals("Caretta Hotels - Home"));
 
 //     * And login button'a click eder
-            driver.findElement(By.linkText("Log in")).click();
+        driver.findElement(By.linkText("Log in")).click();
 
 //     * then page title'in 'Caretta Hotel - Log in' oldugunu verify eder
-            System.out.println(driver.getTitle());
-            Assert.assertTrue(driver.getTitle().equals("Caretta Hotel - Log in"));
+        System.out.println(driver.getTitle());
+        Assert.assertTrue(driver.getTitle().equals("Caretta Hotels - Log in"));
 
-        }
-
+    }
 }

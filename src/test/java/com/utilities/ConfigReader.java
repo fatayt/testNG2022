@@ -6,8 +6,10 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigReader {
-    // Bu class configuration.properties fie/dosyadaki bilgileri okumak icindir
-    //Properties object olusturulur
+
+    // Bu class configuration.properties file/dosyadaki bilgileri okumak icindir
+
+    //Properties object olusturduk
     private static Properties properties;
 
     static {
@@ -15,12 +17,12 @@ public class ConfigReader {
         String path = "configuration.properties";
 
         try {
-            //fie i ac
-            FileInputStream fileInputStream = new FileInputStream((path));
-            //properties objecti aktif et
+            //file/dosyayi ac
+            FileInputStream fileInputStream = new FileInputStream(path);
+            // properties objecti aktif et/calistir
             properties = new Properties();
 
-            //dosyayi yukle
+            // dosyayi yukle
             properties.load(fileInputStream);
             //dosyayi kapat
             fileInputStream.close();
@@ -28,12 +30,15 @@ public class ConfigReader {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
     // getProperti(key) ==> value
 
-    public static String getProperty(String key) {
+    public static String getProperty(String key){
         String value = properties.getProperty(key);
         return value;
-        //  return  properties.getProperty(key);
+
+        // return properties.getProperty(key);
     }
+
 }
