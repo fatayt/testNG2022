@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30518065-f928-4f59-85a7-b3aed9ec8952" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/Day10_C6_TestAdressLoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/DefaultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day10_C7_TestAdressLoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/smoketest/Day10_C8_PositiveLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C1_TestNGAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C1_TestNGAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C2_Hard_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C2_Hard_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C2_Soft_Assertion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C3_Soft_Assertion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C4_FirstDriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C4_FirstDriverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C5_FirstConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day09_C5_FirstConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/ConfigReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-    </list>
+    <list default="true" id="30518065-f928-4f59-85a7-b3aed9ec8952" name="Changes" comment="full" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672298383843</updated>
     </task>
+    <task id="LOCAL-00001" summary="full">
+      <created>1672439028308</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672439028308</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,5 +164,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="full" />
+    <option name="LAST_COMMIT_MESSAGE" value="full" />
   </component>
 </project>
