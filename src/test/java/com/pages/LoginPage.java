@@ -11,7 +11,6 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-
     @FindBy(id="UserName")
     public WebElement username;
 
@@ -29,6 +28,7 @@ public class LoginPage {
 
     @FindBy(id="divMessageResult")
     public WebElement errorMassage;
+
 
 
 }
