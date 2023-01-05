@@ -20,6 +20,9 @@ public class DefaultPage {
     @FindBy(partialLinkText = "Hotel Rooms")
     public WebElement hotelRooms;
 
+    @FindBy(partialLinkText = "Room reservations")
+    public WebElement roomreservations;
+
     @FindBy(xpath = "//span[@class='hidden-480']")
     public WebElement addHotelRoom;
 
