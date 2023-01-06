@@ -1,5 +1,6 @@
 package com.excelautomation;
 
+import com.utilities.ExcelUtil;
 import org.apache.poi.ss.usermodel.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -86,9 +87,49 @@ public class Day12_C12_ReadExcel {
 
 //        Ulke ve baskent key-value ciftlerini map object olarak yazdir
         Map<String, String> dunyaBaskentleri = new HashMap<>();
+
+        int ulkeColumn =0;
+        int baskentColumn =1;
         /*
-        row numarasi 1 den baslar
+        row numarasi 1 den baslar, cunku header 0. indextedir
+        En sondaki row'un indexi: lastRowNumer yada sheet.getLastRowNum()+ 1:
+        ABD         :sheet. getRow(1).getCell(0);
+        Fransa      :sheet. getRow(2).getCell(0);
+        ...
         */
+        for (int rowNumarasi=1; rowNumarasi<rowSayisi; rowNumarasi++){
+        String ulke = sheet.getRow(rowNumarasi).getCell(ulkeColumn).toString();
+        String baskent = sheet.getRow(rowNumarasi).getCell(baskentColumn).toString();
+            System.out.println("ulke: " +ulke);
+            System.out.println("baskent: " +baskent);
+
+            dunyaBaskentleri.put(ulke, baskent); //Map"e uke ve baskenti eklemis olduk
+
+        }
+        System.out.println(dunyaBaskentleri);
+    }
+    @Test
+    public void excelUtilDemo(){
+        String path = "./src/test/java/resources/Baskent.xlsx";
+        String sheetName = "Sayfa1";
+
+        //ExcelUtil class i okumak icin bir nesne olustur
+        ExcelUtil excelUtil = new ExcelUtil(path, sheetName);
+        //ExcelUtil deki methodlari cagirabiliriz
+
+        System.out.println(excelUtil.getDataList());
+
+        System.out.println(excelUtil.columnCount());    //2
+
+        System.out.println(excelUtil.rowCount());       //11
+
+        System.out.println(excelUtil.getCellData(5, 1));    //ottowa
+
+        System.out.println(excelUtil.getColumnsNames());
+
+
+
+
 
     }
 }

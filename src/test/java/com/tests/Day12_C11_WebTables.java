@@ -126,5 +126,5 @@ public class Day12_C11_WebTables {
     public void printData(int row, int column){
     //    ornek : printData(2,3); 2. row ve 3 column yazdirmali
 
-}
+    }
 }
