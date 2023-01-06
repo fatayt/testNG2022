@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30518065-f928-4f59-85a7-b3aed9ec8952" name="Changes" comment="full">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day12_C12_ReadExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day12_C11_WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utilities/ExcelUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utilities/JSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/DefaultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/DefaultPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/pages/HotelReservationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/pages/HotelReservationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/smoketest/Day11_HW1_HotelReservationCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/smoketest/Day11_HW1_HotelReservationCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +51,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.Day11_HW1_HotelReservationCreate.hotelReservationCreate">
-    <configuration name="Day11_C10_HotelRoomOlusturma.hotelRoomOlusturma" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\deneme\IdeaProjects\testNG2022\src\test\java\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Day12_C12_ReadExcel.readExcel">
+    <configuration name="Day12_C11_WebTables.entireTable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tests.smoketest.*" />
+          <option name="PATTERN" value="com.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.smoketest.Day11_C10_HotelRoomOlusturma" />
-      <option name="METHOD_NAME" value="hotelRoomOlusturma" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.Day12_C11_WebTables" />
+      <option name="METHOD_NAME" value="entireTable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,34 +75,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day11_C9_NegativeLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day12_C11_WebTables.priintRows" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tests.smoketest.*" />
+          <option name="PATTERN" value="com.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.smoketest.Day11_C9_NegativeLoginTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day11_C9_NegativeLoginTest.invalidIDAndPassword" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tests.smoketest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.smoketest.Day11_C9_NegativeLoginTest" />
-      <option name="METHOD_NAME" value="invalidIDAndPassword" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.Day12_C11_WebTables" />
+      <option name="METHOD_NAME" value="priintRows" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -101,17 +93,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day11_C9_NegativeLoginTest.invalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day12_C11_WebTables.printCell" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tests.smoketest.*" />
+          <option name="PATTERN" value="com.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.smoketest.Day11_C9_NegativeLoginTest" />
-      <option name="METHOD_NAME" value="invalidPassword" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.Day12_C11_WebTables" />
+      <option name="METHOD_NAME" value="printCell" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -119,17 +111,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day11_HW1_HotelReservationCreate.hotelReservationCreate" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day12_C11_WebTables.printColumns" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tests.smoketest.*" />
+          <option name="PATTERN" value="com.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tests.smoketest" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.smoketest.Day11_HW1_HotelReservationCreate" />
-      <option name="METHOD_NAME" value="hotelReservationCreate" />
+      <option name="PACKAGE_NAME" value="com.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.tests.Day12_C11_WebTables" />
+      <option name="METHOD_NAME" value="printColumns" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day12_C12_ReadExcel.readExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
+      <option name="METHOD_NAME" value="readExcel" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day11_HW1_HotelReservationCreate.hotelReservationCreate" />
-        <item itemvalue="TestNG.Day11_C10_HotelRoomOlusturma.hotelRoomOlusturma" />
-        <item itemvalue="TestNG.Day11_C9_NegativeLoginTest.invalidIDAndPassword" />
-        <item itemvalue="TestNG.Day11_C9_NegativeLoginTest.invalidPassword" />
-        <item itemvalue="TestNG.Day11_C9_NegativeLoginTest" />
+        <item itemvalue="TestNG.Day12_C12_ReadExcel.readExcel" />
+        <item itemvalue="TestNG.Day12_C11_WebTables.printColumns" />
+        <item itemvalue="TestNG.Day12_C11_WebTables.printCell" />
+        <item itemvalue="TestNG.Day12_C11_WebTables.priintRows" />
+        <item itemvalue="TestNG.Day12_C11_WebTables.entireTable" />
       </list>
     </recent_temporary>
   </component>
