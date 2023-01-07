@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30518065-f928-4f59-85a7-b3aed9ec8952" name="Changes" comment="full">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C13_WriteExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/smoketestdata.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day12_C12_ReadExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day12_C12_ReadExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day12_C11_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day12_C11_WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <recent name="C:\Users\deneme\IdeaProjects\testNG2022\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day12_C11_WebTables.printData">
+  <component name="RunManager" selected="TestNG.Day13_C14_LoginSmokeTest.managerLoginTest">
     <configuration name="Day12_C11_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
@@ -94,42 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_C12_ReadExcel.excelUtilDemo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
-      <option name="METHOD_NAME" value="excelUtilDemo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day12_C12_ReadExcel.readExcel" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNG2022" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
-      <option name="METHOD_NAME" value="readExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Day13_C13_WriteExcel.writeExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
@@ -148,13 +107,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day13_C14_LoginSmokeTest.adminLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C14_LoginSmokeTest" />
+      <option name="METHOD_NAME" value="adminLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day13_C14_LoginSmokeTest.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNG2022" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C14_LoginSmokeTest" />
+      <option name="METHOD_NAME" value="managerLoginTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day13_C14_LoginSmokeTest.managerLoginTest" />
+        <item itemvalue="TestNG.Day13_C14_LoginSmokeTest.adminLoginTest" />
         <item itemvalue="TestNG.Day12_C11_WebTables.printData" />
         <item itemvalue="TestNG.Day12_C11_WebTables" />
         <item itemvalue="TestNG.Day13_C13_WriteExcel.writeExcel" />
-        <item itemvalue="TestNG.Day12_C12_ReadExcel.excelUtilDemo" />
-        <item itemvalue="TestNG.Day12_C12_ReadExcel.readExcel" />
       </list>
     </recent_temporary>
   </component>
