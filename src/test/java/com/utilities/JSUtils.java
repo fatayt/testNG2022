@@ -42,8 +42,9 @@ public class JSUtils {
     //Flashing the background color
     public static void flash(WebElement element) {
         String bgColor = element.getCssValue("backgroundcolor");
-        for (int i = 0; i < 10; i++) {
-            changeColor("rgb(0,200,0", element);
+        for (int i = 0; i < 5; i++) {
+            changeColor("rgb(60,140,60", element);
+            changeColor("rgb(128,0,128", element);
             changeColor(bgColor, element);
         }
     }
@@ -68,4 +69,5 @@ public class JSUtils {
         JavascriptExecutor jse = (JavascriptExecutor) Driver.getDriver();
         jse.executeScript(command);
     }
+
 }

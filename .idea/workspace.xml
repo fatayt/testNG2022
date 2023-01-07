@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30518065-f928-4f59-85a7-b3aed9ec8952" name="Changes" comment="full">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C16_DataProvider1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C17_DataProvider2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/dataprovider/Day14_C18_DataProvider3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/javascriptexecutor/Day14_C15_JSUtilTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/excelautomation/Day13_C14_LoginSmokeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tests/Day12_C11_WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tests/Day12_C11_WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/utilities/JSUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/utilities/JSUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Baskent.xlsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
       <recent name="C:\Users\deneme\IdeaProjects\testNG2022\src\test\java\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.Day13_C14_LoginSmokeTest.managerLoginTest">
+  <component name="RunManager" selected="TestNG.Day12_C11_WebTables">
     <configuration name="Day12_C11_WebTables" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
@@ -71,25 +77,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day12_C11_WebTables.printData" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day12_C12_ReadExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.tests.*" />
+          <option name="PATTERN" value="com.excelautomation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.tests.Day12_C11_WebTables" />
-      <option name="METHOD_NAME" value="printData" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.excelautomation" />
+      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day12_C12_ReadExcel" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_C13_WriteExcel.writeExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day13_C13_WriteExcel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
@@ -99,15 +104,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.excelautomation" />
       <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C13_WriteExcel" />
-      <option name="METHOD_NAME" value="writeExcel" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_C14_LoginSmokeTest.adminLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day13_C14_LoginSmokeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
@@ -117,26 +121,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.excelautomation" />
       <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C14_LoginSmokeTest" />
-      <option name="METHOD_NAME" value="adminLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Day13_C14_LoginSmokeTest.managerLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Day14_C15_JSUtilTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNG2022" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.excelautomation.*" />
+          <option name="PATTERN" value="com.javascriptexecutor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.excelautomation" />
-      <option name="MAIN_CLASS_NAME" value="com.excelautomation.Day13_C14_LoginSmokeTest" />
-      <option name="METHOD_NAME" value="managerLoginTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.javascriptexecutor" />
+      <option name="MAIN_CLASS_NAME" value="com.javascriptexecutor.Day14_C15_JSUtilTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Day13_C14_LoginSmokeTest.managerLoginTest" />
-        <item itemvalue="TestNG.Day13_C14_LoginSmokeTest.adminLoginTest" />
-        <item itemvalue="TestNG.Day12_C11_WebTables.printData" />
         <item itemvalue="TestNG.Day12_C11_WebTables" />
-        <item itemvalue="TestNG.Day13_C13_WriteExcel.writeExcel" />
+        <item itemvalue="TestNG.Day13_C14_LoginSmokeTest" />
+        <item itemvalue="TestNG.Day13_C13_WriteExcel" />
+        <item itemvalue="TestNG.Day12_C12_ReadExcel" />
+        <item itemvalue="TestNG.Day14_C15_JSUtilTest" />
       </list>
     </recent_temporary>
   </component>
